@@ -14,7 +14,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <script>
@@ -30,8 +30,6 @@
         <div class="nav-inner">
             <ul>
                 <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -66,8 +64,8 @@
                     <p class="hero-badge"><span class="hero-badge-dot" aria-hidden="true"></span>Open to SDE and Full-Stack Development Internships &amp; New-Grad Roles</p>
                 </div>
                 <p class="eyebrow">Prince Kumar · B.Tech CSE </p>
-                <h1>MERN Stack Developer</h1>
-                <p>I’m a B.Tech student at IIIT Bhubaneswar working across the MERN stack and AI/ML. I’ve shipped a full-stack career platform with retrieval-augmented generation, a hostel management system with separate admin and student dashboards, and a Python voice assistant that automates system tasks. Alongside shipping software, I solve 1000+ DSA problems and hold a LeetCode Global Rank of 638.</p>
+                <h1>MERN Stack<br>Developer &amp; AI Enthusiast</h1>
+                <p>I build full-stack web applications and AI powered products using the MERN stack and Generative AI. From CareerPilot's AI-driven career assistance to full-stack management systems, I enjoy turning ideas into useful software. I also strengthen my problem-solving skills through DSA and competitive programming.</p>
                 <div class="hero-buttons">
                     <a href="#projects">See Projects</a>
                     <a href="resume.pdf" class="secondary" download>Download Resume</a>
@@ -80,10 +78,30 @@
                 </div>
             </div>
             <div class="hero-photo">
-                <div class="photo-frame">
-                    <img src="photo.jpeg" alt="Prince Kumar, MERN stack and AI developer" class="profile-img">
-                    <!-- <div class="photo-badge">MERN + AI/ML Developer</div> -->
-                </div>
+                <aside class="hero-profile" aria-label="Profile details">
+                    <div class="profile-photo">
+                        <span class="profile-blob profile-blob-a" aria-hidden="true"></span>
+                        <span class="profile-blob profile-blob-b" aria-hidden="true"></span>
+                        <img src="photo.png" alt="Portrait of Prince Kumar" class="profile-portrait">
+                    </div>
+                    <h2 class="profile-name">Prince Kumar</h2>
+                    <p class="profile-location">Bhubaneswar, IN</p>
+                    <hr class="profile-divider">
+                    <dl class="profile-info">
+                        <div class="profile-info-row">
+                            <dt>Based in</dt>
+                            <dd>Bhubaneswar, India</dd>
+                        </div>
+                        <div class="profile-info-row">
+                            <dt>Studying</dt>
+                            <dd>B.Tech CSE, IIIT Bhubaneswar</dd>
+                        </div>
+                        <div class="profile-info-row">
+                            <dt>Focus</dt>
+                            <dd>MERN Stack Development &amp; Generative AI</dd>
+                        </div>
+                    </dl>
+                </aside>
                 <div class="hero-stats">
                     <div><strong>1000+</strong><span>DSA Problems Solved</span></div>
                     <div><strong>638</strong><span>LeetCode Global Rank</span></div>
@@ -94,55 +112,12 @@
     </header>
 
     <main>
-        <section id="about">
-            <p class="section-kicker">01 / Profile</p>
-            <h2>Curious by nature.<br>Careful by craft.</h2>
-            <p>I’m an aspiring full-stack developer with a strong interest in building intuitive, visually appealing web experiences and in wiring AI into them where it genuinely helps. Most of my work is JavaScript across React and Node, with Python for data analysis and automation, and a growing focus on retrieval-augmented generation and LLM tooling. I care about clean code, measurable performance, and details that improve usability.</p>
-            <div class="grid grid-2">
-                <div class="card">
-                    <h3>What I do</h3>
-                    <p>Build full-stack MERN applications, integrate Gemini and LangChain for real product features, and analyse datasets in Python to turn raw numbers into decisions.</p>
-                </div>
-                <div class="card">
-                    <h3>Why I code</h3>
-                    <p>I like the combination of engineering discipline and product thinking — turning an ambiguous idea into something people can actually use, then making it fast and reliable.</p>
-                </div>
-            </div>
-            <div class="card card-highlight">
-                <h3>Current focus</h3>
-                <ul class="focus-list">
-                    <li>Preparing for campus placements and technical interviews</li>
-                    <li>Deepening RAG, embeddings, and vector search beyond textbook examples</li>
-                    <li>Shipping full-stack side projects with real auth, data models, and deployments</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="education">
-            <p class="section-kicker">02 / Foundation</p>
-            <h2>Learning in public.</h2>
-            <div class="timeline">
-                <article class="entry">
-                    <p class="entry-meta">Aug 2023 – Jul 2027 · Bhubaneswar, Odisha</p>
-                    <h3>Bachelor of Technology, Computer Science</h3>
-                    <p class="entry-org">International Institute of Information Technology, Bhubaneswar</p>
-                    <ul class="bullets">
-                        <li>Core coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks , Machine Learning , Distributed Systems</li>
-                    </ul>
-                </article>
-                <article class="entry">
-                    <p class="entry-meta">May 2020 – Mar 2022 · Siwan, Bihar</p>
-                    <h3>Senior Secondary (+2), CBSE</h3>
-                    <p class="entry-org">Bihar Public School Siwan</p>
-                </article>
-            </div>
-        </section>
-
         <section id="experience">
-            <p class="section-kicker">03 / Practice</p>
-            <h2>Learning by making.</h2>
+            <p class="section-kicker">01 / Timeline</p>
+            <h2>Experience</h2>
             <div class="timeline">
                 <article class="entry">
+                    <span class="entry-label entry-label--work">Work experience</span>
                     <p class="entry-meta">Dec 2024 – Jan 2025 · Remote</p>
                     <h3>Freelance Developer &amp; Data Analyst</h3>
                     <p class="entry-org">Dr. Anurag — University of Calgary</p>
@@ -153,6 +128,7 @@
                     </ul>
                 </article>
                 <article class="entry">
+                    <span class="entry-label entry-label--event">Hackathon</span>
                     <p class="entry-meta">2024 · IIIT Bhubaneswar</p>
                     <h3>Top 5 — D3 Hackathon</h3>
                     <p class="entry-org">Among 200+ participants</p>
@@ -160,11 +136,26 @@
                         <li>Built under competition time constraints, shipping a working prototype and presenting the solution to judges</li>
                     </ul>
                 </article>
+                <article class="entry">
+                    <span class="entry-label entry-label--edu">Education</span>
+                    <p class="entry-meta">Aug 2023 – Jul 2027 · Bhubaneswar, Odisha</p>
+                    <h3>Bachelor of Technology, Computer Science</h3>
+                    <p class="entry-org">International Institute of Information Technology, Bhubaneswar</p>
+                    <ul class="bullets">
+                        <li>Core coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Machine Learning, Distributed Systems</li>
+                    </ul>
+                </article>
+                <article class="entry">
+                    <span class="entry-label entry-label--edu">Education</span>
+                    <p class="entry-meta">May 2020 – Mar 2022 · Siwan, Bihar</p>
+                    <h3>Senior Secondary (+2), CBSE</h3>
+                    <p class="entry-org">Bihar Public School Siwan</p>
+                </article>
             </div>
         </section>
 
         <section id="projects">
-            <p class="section-kicker">04 / Selected work</p>
+            <p class="section-kicker">02 / Selected work</p>
             <h2>A few things I’ve built.</h2>
             <div class="cards">
                 <article class="card">
@@ -230,7 +221,7 @@
         </section>
 
         <section id="skills">
-            <p class="section-kicker">05 / Toolkit</p>
+            <p class="section-kicker">03 / Toolkit</p>
             <h2>Tools I reach for.</h2>
             <div class="skill-groups">
                 <div class="skill-group">
@@ -260,36 +251,8 @@
             </div>
         </section>
 
-        <section id="resume">
-            <p class="section-kicker">06 / Next step</p>
-            <h2>Let’s make something useful.</h2>
-            <div class="grid grid-2">
-                <div class="card">
-                    <h3>Professional Summary</h3>
-                    <p>B.Tech CSE student at IIIT Bhubaneswar with hands-on experience shipping full-stack MERN applications and Python data analysis for a real client. Comfortable across React, Node, Express, and MongoDB, with applied AI work in retrieval-augmented generation and LLM integrations. Ready to contribute to internships and build products that improve user experiences.</p>
-                    <a href="resume.pdf" class="cta-link resume-link" download>Download Resume ↓</a>
-                </div>
-                <div class="card">
-                    <h3>Achievements</h3>
-                    <ul class="focus-list">
-                        <li>Solved 1000+ DSA problems across LeetCode, GeeksforGeeks, and Codeforces</li>
-                        <li>Global Rank 638 in LeetCode Biweekly Contest 188</li>
-                        <li>Codeforces rating 1293 — Pupil</li>
-                        <li>Top 5 of 200+ participants, D3 Hackathon 2024, IIIT Bhubaneswar</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- <div class="card card-highlight">
-                <h3>Certifications</h3>
-                <ul class="focus-list">
-                    <li><a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=8F93FB8E5024AC21DA7B19F6999C92096E24A7AC3A66ED869044AC257A063C06" target="_blank" rel="noopener noreferrer">Oracle — Agentic AI Certified Foundations Associate ↗</a> (Aug 2026)</li>
-                    <li><a href="https://drive.google.com/file/d/1yi61JGTHaOJ0SS-0Y94x3NQeEqyf_7xn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Redis — Associate Developer ↗</a> (Aug 2026)</li>
-                </ul>
-            </div> -->
-        </section>
-
         <section id="contact">
-            <p class="section-kicker">07 / Say hello</p>
+            <p class="section-kicker">04 / Say hello</p>
             <h2>Open to good problems.</h2>
             <form class="contact-form" id="contact-form" novalidate>
                 <div class="contact-form-head">
